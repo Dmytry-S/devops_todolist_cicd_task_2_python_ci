@@ -44,4 +44,5 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest -v 
+          pwd
+          python3 manage.py test
